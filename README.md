@@ -1,2 +1,2 @@
 # Options-pricing
-Modelling European call and put option prices using implied volatility.
+In this notebook, we estimate option prices in the Black Scholes model. For this we interpolate the implied volatility using Newton's method and regression techniques. The data consists of option prices for the S&P500 index and has been retrieved from Yahoo finance (https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC) over several days in Januray 2020. We have one dataset for call and one for put options.
